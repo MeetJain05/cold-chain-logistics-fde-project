@@ -1,0 +1,41 @@
+.env
+*.key
+*.pem
+
+# PYTHON ENVIRONMENT & CACHE
+# =============================================
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+data/cache/
+
+# =============================================
+# MODEL WEIGHTS & EMBEDDINGS (huge files)
+# =============================================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# =============================================
+# STREAMLIT RUNTIME FILES
+# =============================================
+.streamlit/secrets.toml
+
+Misc/
+notes.pdf
+
+# =============================================
+# IDE & OS FILES
+# =============================================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
